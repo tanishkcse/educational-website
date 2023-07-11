@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background-image: url('simple.jpg');
+    height: 100;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+    background-size: cover;
+  }
+</style>
+</head>
+<body >
+
+  <u><h1><center>Notes</center></h1></u>
+<h3><center>Please click in the download for download notes and for online reading click in the name of your subject</center></h3>
+
+<div class="row">
+  <div class="column">
+    <img src="cse/cse.jpeg" alt="cse" style="width:80%">
+    <a href="c_programming.html"><h2>Computer programming</h2></a>
+<button class="btn"><i class="fa fa-download"></i> Download</button>
+
+  </div>
+  <div class="column">
+    <img src="physic/phy.jpeg" alt="phy" style="width:80%">
+    <a href="physic.html"><h2>Physics</h2></a>
+    <button class="btn"><i class="fa fa-download"></i> Download</button>
+  </div>
+  
+  <div class="column">
+    <img src="phylab/physic.jpeg" alt="physiclab" style="width:80%">
+    <a href="phylab.html"><h2>Physics pratical</h2></a>
+
+    <button class="btn"><i class="fa fa-download"></i> Download</button>
+  </div>
+
+  <div class="column">
+    <img src="softskill/soft.jpeg" alt="soft" style="width:80%">
+    <a href="soft.html"><h2>Soft Skill</h2></a>
+    <button class="btn"><i class="fa fa-download"></i> Download</button>
+    </div>
+
+    <div class="column">
+        <img src="html/html.jpeg" alt="html" style="width:80%">
+        <a href="internet.html"><h2>Internet programming</h2></a>
+        <button class="btn"><i class="fa fa-download"></i> Download</button>
+
+      
+
+</div>
+
+</body>
+</html>

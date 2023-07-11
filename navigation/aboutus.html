@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> body{
+        background-color: aqua;
+       }</style>
+<style>
+    body {
+       
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<div class="about-section">
+  <h1>About Us Page</h1>
+
+  <p><h3>"Everything is easy if your are crazy."</h3></p>
+  <p><h3>"Nothing will be easy if your are lazy."</h3></p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="D:\mywebsite\preparation buddy\Images\tanishk.jpg" alt="" style="width: 40%;" height="20%">
+      <div class="container">
+        <h2>Tanishk Yadav</h2>
+
+        <p class="title">CEO & Founder</p>
+        <h4>B.Tech CSE</h4>
+
+        <p><b>"Happyiness is not an agreement, it's an attitude."</b></p>
+        <p>tanishkyadav933@gmail.com</p>
+        <p>Contact No. : 7413938042</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="D:\mywebsite\preparation buddy\Images\govinda.jpg" alt="" style="width:40%" height="20%">
+      <div class="container">
+        <h2>Govinda Sah</h2>
+        <p class="title">Managing Director</p>
+        <h4>B.Tech CSE</h4>
+
+        <p><b>"Hardwork is the key of success"</b></p>
+
+        <p>sahgovinda401@gmail.com</p>
+        <p>Contact No. : 6283730442</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="D:\mywebsite\preparation buddy\Images\robin.jpg" alt="Anish" style="width:40%" height="20%">
+      <div class="container">
+        <h2>Anish Mainali</h2>
+        <p class="title">Executive Director </p>
+        <h4>B.Tech cse</h4>
+
+        <p><b>"Wish for the best, ready for the worst"</b></p>
+
+        <p>anishmainali4@gmail.com</p>
+        <p>Contact No. : 6280071769</p>
+      </div>
+    </div>
+  </div>
+</div>
+}
+</style>
+</head>
+</html>
